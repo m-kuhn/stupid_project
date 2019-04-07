@@ -35,10 +35,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>degrees</units>
     <extent>
-      <xmin>6.918512616834124</xmin>
-      <ymin>47.12390894294235721</ymin>
-      <xmax>6.98169910925723247</xmax>
-      <ymax>47.14293243491282936</ymax>
+      <xmin>6.9408564360696996</xmin>
+      <ymin>47.1259793088643022</ymin>
+      <xmax>7.00404292849280807</xmax>
+      <ymax>47.14500280083477435</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
