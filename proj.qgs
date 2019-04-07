@@ -19,26 +19,26 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer expanded="1" id="stupid_layer_837b0c62_e198_4f73_8c02_7128c31e3fe6" name="stupid_layer" source="./stupid_layer.shp" providerKey="ogr" checked="Qt::Checked">
+    <layer-tree-layer id="stupid_layer_837b0c62_e198_4f73_8c02_7128c31e3fe6" providerKey="ogr" source="./stupid_layer.shp" expanded="1" checked="Qt::Checked" name="stupid_layer">
       <customproperties/>
     </layer-tree-layer>
     <custom-order enabled="0">
       <item>stupid_layer_837b0c62_e198_4f73_8c02_7128c31e3fe6</item>
     </custom-order>
   </layer-tree-group>
-  <snapping-settings mode="2" type="1" tolerance="12" unit="1" enabled="0" intersection-snapping="0">
+  <snapping-settings type="1" tolerance="12" unit="1" enabled="0" intersection-snapping="0" mode="2">
     <individual-layer-settings>
-      <layer-setting type="1" tolerance="12" id="stupid_layer_837b0c62_e198_4f73_8c02_7128c31e3fe6" units="1" enabled="0"/>
+      <layer-setting id="stupid_layer_837b0c62_e198_4f73_8c02_7128c31e3fe6" type="1" units="1" tolerance="12" enabled="0"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>degrees</units>
     <extent>
-      <xmin>6.81206354300302497</xmin>
-      <ymin>47.08516352354588008</ymin>
-      <xmax>6.87525003542613344</xmax>
-      <ymax>47.10418701551635223</ymax>
+      <xmin>6.85427749751548454</xmin>
+      <ymin>47.09801592498343581</ymin>
+      <xmax>6.91746398993859302</xmax>
+      <ymax>47.11703941695390796</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -58,15 +58,15 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" showFeatureCount="0" open="true" name="stupid_layer" checked="Qt::Checked">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="stupid_layer_837b0c62_e198_4f73_8c02_7128c31e3fe6" visible="1"/>
+    <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Checked" name="stupid_layer" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" isInOverview="0" layerid="stupid_layer_837b0c62_e198_4f73_8c02_7128c31e3fe6"/>
       </filegroup>
     </legendlayer>
   </legend>
   <mapViewDocks/>
   <projectlayers>
-    <maplayer type="vector" autoRefreshEnabled="0" minScale="1e+8" geometry="Point" maxScale="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" simplifyDrawingHints="1" simplifyMaxScale="1" autoRefreshTime="0" labelsEnabled="0" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyAlgorithm="0" readOnly="0" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1">
+    <maplayer simplifyAlgorithm="0" maxScale="0" minScale="1e+8" readOnly="0" refreshOnNotifyMessage="" type="vector" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" autoRefreshEnabled="0" simplifyDrawingHints="1" geometry="Point" autoRefreshTime="0" simplifyDrawingTol="1" simplifyLocal="1" simplifyMaxScale="1" labelsEnabled="0">
       <id>stupid_layer_837b0c62_e198_4f73_8c02_7128c31e3fe6</id>
       <datasource>./stupid_layer.shp</datasource>
       <keywordList>
@@ -124,28 +124,28 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
         <symbols>
-          <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="0">
-            <layer pass="0" locked="0" class="SimpleMarker" enabled="1">
-              <prop k="angle" v="0"/>
-              <prop k="color" v="133,182,111,255"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="name" v="circle"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="2"/>
-              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
+          <symbol type="marker" clip_to_extent="1" name="0" force_rhr="0" alpha="1">
+            <layer class="SimpleMarker" pass="0" enabled="1" locked="0">
+              <prop v="0" k="angle"/>
+              <prop v="133,182,111,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option type="QString" value="" name="name"/>
@@ -179,24 +179,24 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" field="id" name=""/>
+        <alias field="id" name="" index="0"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" field="id" applyOnUpdate="0"/>
+        <default expression="" applyOnUpdate="0" field="id"/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" constraints="0" field="id" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" field="id" exp_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint desc="" field="id" exp=""/>
+        <constraint exp="" desc="" field="id"/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
         <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
         <columns/>
       </attributetableconfig>
       <conditionalstyles>
