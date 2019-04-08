@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="3.7.0-Master">
+<qgis version="3.7.0-Master" projectname="">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -19,20 +19,20 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer source="./stupid_layer.shp" checked="Qt::Checked" id="stupid_layer_837b0c62_e198_4f73_8c02_7128c31e3fe6" name="stupid_layer" expanded="1" providerKey="ogr">
+    <layer-tree-layer id="stupid_layer_837b0c62_e198_4f73_8c02_7128c31e3fe6" providerKey="ogr" expanded="1" checked="Qt::Checked" source="./stupid_layer.shp" name="stupid_layer">
       <customproperties/>
     </layer-tree-layer>
     <custom-order enabled="0">
       <item>stupid_layer_837b0c62_e198_4f73_8c02_7128c31e3fe6</item>
     </custom-order>
   </layer-tree-group>
-  <snapping-settings type="1" enabled="0" intersection-snapping="0" tolerance="12" unit="1" mode="2">
+  <snapping-settings enabled="0" intersection-snapping="0" unit="1" tolerance="12" mode="2" type="1">
     <individual-layer-settings>
-      <layer-setting type="1" enabled="0" id="stupid_layer_837b0c62_e198_4f73_8c02_7128c31e3fe6" tolerance="12" units="1"/>
+      <layer-setting id="stupid_layer_837b0c62_e198_4f73_8c02_7128c31e3fe6" enabled="0" units="1" tolerance="12" type="1"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
-  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>degrees</units>
     <extent>
       <xmin>6.91875607401085801</xmin>
@@ -58,15 +58,15 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" showFeatureCount="0" checked="Qt::Checked" name="stupid_layer" open="true">
-      <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" layerid="stupid_layer_837b0c62_e198_4f73_8c02_7128c31e3fe6" visible="1"/>
+    <legendlayer showFeatureCount="0" drawingOrder="-1" open="true" checked="Qt::Checked" name="stupid_layer">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="stupid_layer_837b0c62_e198_4f73_8c02_7128c31e3fe6" visible="1" isInOverview="0"/>
       </filegroup>
     </legendlayer>
   </legend>
   <mapViewDocks/>
   <projectlayers>
-    <maplayer type="vector" simplifyDrawingTol="1" labelsEnabled="0" geometry="Point" simplifyLocal="1" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" simplifyDrawingHints="1" simplifyAlgorithm="0" autoRefreshTime="0" simplifyMaxScale="1" minScale="1e+08" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" maxScale="0" readOnly="0">
+    <maplayer geometry="Point" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" simplifyDrawingHints="1" refreshOnNotifyMessage="" minScale="1e+8" simplifyDrawingTol="1" autoRefreshTime="0" maxScale="0" readOnly="0" labelsEnabled="0" simplifyAlgorithm="0" simplifyLocal="1" type="vector" autoRefreshEnabled="0">
       <id>stupid_layer_837b0c62_e198_4f73_8c02_7128c31e3fe6</id>
       <datasource>./stupid_layer.shp</datasource>
       <keywordList>
@@ -104,7 +104,7 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -124,10 +124,10 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 type="singleSymbol" enableorderby="0" forceraster="0" symbollevels="0">
+      <renderer-v2 enableorderby="0" symbollevels="0" forceraster="0" type="singleSymbol">
         <symbols>
-          <symbol type="marker" force_rhr="0" clip_to_extent="1" alpha="1" name="0">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol alpha="1" clip_to_extent="1" name="0" force_rhr="0" type="marker">
+            <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
               <prop k="angle" v="0"/>
               <prop k="color" v="133,182,111,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
@@ -148,9 +148,9 @@
               <prop k="vertical_anchor_point" v="1"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option type="QString" name="name" value=""/>
+                  <Option value="" name="name" type="QString"/>
                   <Option name="properties"/>
-                  <Option type="QString" name="type" value="collection"/>
+                  <Option value="collection" name="type" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -165,7 +165,7 @@
       <layerOpacity>1</layerOpacity>
       <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
         <activeChecks type="StringList">
-          <Option type="QString" value=""/>
+          <Option value="" type="QString"/>
         </activeChecks>
         <checkConfiguration/>
       </geometryOptions>
@@ -179,24 +179,24 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" field="id" index="0"/>
+        <alias index="0" name="" field="id"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" field="id" applyOnUpdate="0"/>
+        <default applyOnUpdate="0" field="id" expression=""/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" exp_strength="0" field="id" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0" field="id"/>
       </constraints>
       <constraintExpressions>
-        <constraint desc="" field="id" exp=""/>
+        <constraint desc="" exp="" field="id"/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
         <columns/>
       </attributetableconfig>
       <conditionalstyles>
