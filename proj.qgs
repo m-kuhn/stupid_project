@@ -35,10 +35,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>degrees</units>
     <extent>
-      <xmin>6.93837138786218333</xmin>
-      <ymin>47.128729428880618</ymin>
-      <xmax>7.0015578802852918</xmax>
-      <ymax>47.14775292085109015</ymax>
+      <xmin>6.9339645690408549</xmin>
+      <ymin>47.13499175036356093</ymin>
+      <xmax>6.99715106146396337</xmax>
+      <ymax>47.15401524233403308</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -104,7 +104,7 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
