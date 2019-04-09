@@ -18,7 +18,7 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties></customproperties>
-    <layer-tree-layer checked="Qt::Checked" expanded="1" id="stupid_layer_837b0c62_e198_4f73_8c02_7128c31e3fe6" name="stupid_layer" providerKey="ogr" source="./stupid_layer.shp">
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="stupid_layer_837b0c62_e198_4f73_8c02_7128c31e3fe6" name="Shiny Layer" providerKey="ogr" source="./stupid_layer.shp">
       <customproperties></customproperties>
     </layer-tree-layer>
     <custom-order enabled="0">
@@ -57,7 +57,7 @@
   </mapcanvas>
   <projectModels></projectModels>
   <legend updateDrawingOrder="true">
-    <legendlayer checked="Qt::Checked" drawingOrder="-1" name="stupid_layer" open="true" showFeatureCount="0">
+    <legendlayer checked="Qt::Checked" drawingOrder="-1" name="Shiny Layer" open="true" showFeatureCount="0">
       <filegroup hidden="false" open="true">
         <legendlayerfile isInOverview="0" layerid="stupid_layer_837b0c62_e198_4f73_8c02_7128c31e3fe6" visible="1"></legendlayerfile>
       </filegroup>
@@ -71,7 +71,7 @@
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>stupid_layer</layername>
+      <layername>Shiny Layer</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -103,7 +103,7 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent></extent>
